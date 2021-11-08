@@ -81,7 +81,7 @@ export default function Pomodoro(){
                     type="button"
                     className="btn btn-secondary"
                     data-testid="decrease-focus"
-                    onClick={() => dispatch(decrementFocus(1))}
+                    onClick={() => dispatch(decrementFocus(5))}
                     disabled={session}
                   >
                     <span className="oi oi-minus" />
@@ -90,7 +90,7 @@ export default function Pomodoro(){
                     type="button"
                     className="btn btn-secondary"
                     data-testid="increase-focus"
-                    onClick={() => dispatch(incrementFocus(1))}
+                    onClick={() => dispatch(incrementFocus(5))}
                     disabled={session}
                   >
                     <span className="oi oi-plus" />
